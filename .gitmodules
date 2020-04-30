@@ -1,0 +1,3 @@
+[submodule "trivia-game-backend"]
+	path = trivia-game-backend
+	url = https://github.com/step555/trivia-game-backend
