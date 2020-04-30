@@ -20,5 +20,5 @@ question1 = Question.create(question_text: "What was the punishment for Sysiphus
 question2 = Question.create(question_text: "According to a Beatles song, who kept her face in a jar by the door?", correct_answer: "Eleanor Rigby", incorrect_answers: ["Loretta Martin","Molly Jones","Lady Madonna"])
 question3 = Question.create(question_text: "The mountainous Khyber Pass connects which of the two following countries?", correct_answer: "Afghanistan and Pakistan", incorrect_answers: ["India and Nepal","Pakistan and India","Tajikistan and Kyrgyzstan"])
 
-userquestion1 = UserQuestion.create(points: 1, user_id: 1, question_id: 2)
-userquestion2 = UserQuestion.create(points: 1, user_id: 2, question_id: 1)
+userquestion1 = UserQuestion.create(points: 1, user_id: user1, question_id: question2)
+userquestion2 = UserQuestion.create(points: 1, user_id: user2, question_id: question1)
